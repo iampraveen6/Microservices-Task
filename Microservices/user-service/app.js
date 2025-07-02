@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/health', (req, res) => {
-  res.json({ status: 'User Service is healthy' });
+    res.json({ status: 'User Service is healthy' });
 });
 
 app.get('/users', (req, res) => {
